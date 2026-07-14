@@ -1,0 +1,23 @@
+
+7. 'Authorization:', 'Bearer NjE5Mzk1MDA2MTQwOqT3A+9EICH6NRtBDGcS/Tf6lATy'
+
+8. "Authorization", "Bearer NjE5Mzk1MDA2MTQwOqT3A+9EICH6NRtBDGcS/Tf6lATy"
+
+9. setBearerToken("NjE5Mzk1MDA2MTQwOqT3A+9EICH6NRtBDGcS/Tf6lATy");
+
+
+1. Authorization: Bearer AAAAAAAANZKD
+
+2. Authorization:BearerNjE5Mzk1MDA2MTQwOqT3A+9EICH6NRtBDGcS/Tf6lATy --> this one should never match any rule
+
+3. Authorization:  Bearer  NjE5Mzk1MDA2MTQwOqT3A+9EICH6NRtBDGcS/Tf6lATy
+
+4. Authorization:	Bearer	NjE5Mzk1MDA2MTQwOqT3A+9EICH6NRtBDGcS/Tf6lATy
+
+5. Authorization:,Bearer,NjE5Mzk1MDA2MTQwOqT3A+9EICH6NRtBDGcS/Tf6lATy
+
+6. "Authorization:", "Bearer NjE5Mzk1MDA2MTQwOqT3A+9EICH6NRtBDGcS/Tf6lATy"
+
+
+should find 8 secrets here
+
